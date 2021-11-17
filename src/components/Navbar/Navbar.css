@@ -1,7 +1,32 @@
 .headerr {
-    background-color: cornflowerblue;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;
+}
+
+.menuu {
+    background-color: cornflowerblue;
+}
+
+ul {
+    list-style: none; 
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    font-size: 15px;
+    color: blue;
+}
+
+.liMenu {
+    display: flex;
+    justify-content: space-around;
 }
