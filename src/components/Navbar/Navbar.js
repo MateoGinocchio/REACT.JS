@@ -1,13 +1,18 @@
 import React from 'react'
+import CartWidget from '../CartWidget/CartWidget'
 import "./Navbar.css"
+import LogoOjotas from "./ojotasimpresaslogo.png"
+import ItemListContainer from '../ItemListContainer/ItemListContainer'
+
 
 const Navbar = () => {
     return (
         <div className="menuu">
             <div className="headerr">
-                <h1>OJOTAS IMPRESAS</h1>
+                <img className="Logo" src={LogoOjotas} alt="" />
+                <ItemListContainer greeting="Somos Ojotas Impresas"/>
             </div>
-            <div>
+            <div className="menuNavegable">
                 <nav>
                     <ul>
                         <li className="liMenu">
@@ -19,6 +24,9 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div className="cart">
+                <CartWidget />
             </div>
         </div>
     )
