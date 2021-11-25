@@ -14,11 +14,11 @@ const Navbar = () => {
                 <nav>
                     <ul>
                         <li className="liMenu">
-                            <a href="">INICIO</a>
-                            <a href="">DISEÑOS</a>
-                            <a href="">SOBRE NOSOTROS</a>
-                            <a href="">CONTACTO</a>
-                            <a href="">CLIENTES</a>
+                            <a href="#">INICIO</a>
+                            <a href="#">DISEÑOS</a>
+                            <a href="#">SOBRE NOSOTROS</a>
+                            <a href="#">CONTACTO</a>
+                            <a href="#">CLIENTES</a>
                         </li>
                     </ul>
                 </nav>
